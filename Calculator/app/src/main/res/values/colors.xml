@@ -15,4 +15,10 @@
     <color name="text_numbers_colors">#FFFFFF</color>
     <color name="text_operations_color">#FFFFFF</color>
     <color name="text_results_color">#333333</color>
+    <color name="number_pink">#ffff047f</color>
+    <color name="ligth_pink">FFFFDBE4</color>
+    <color name="light_pinkk">#FFFFDFE8</color>
+    <color name="light_peach">#FFFFF0E5</color>
+    <color name="light_pink1">#ffffbbd8</color>
+    <color name="pink_operation">#FFFF689D</color>
 </resources>
