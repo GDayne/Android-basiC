@@ -20,6 +20,7 @@
             android:id="@+id/txt_result"
             android:layout_gravity="center_horizontal"
             android:textSize="40sp"
+            android:background="@color/light_peach"
             android:gravity="center_vertical|right"
             android:padding="20dp"
             android:textColor="@color/text_results_color"
@@ -30,6 +31,7 @@
             android:layout_height="0dp"
             android:id="@+id/txt_operation"
             android:layout_weight="1"
+            android:background="@color/light_pinkk"
             android:gravity="center_vertical|center_horizontal"
             android:textColor="@color/text_results_color"
             android:textSize="20sp" />
