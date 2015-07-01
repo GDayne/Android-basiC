@@ -367,7 +367,7 @@
                 android:textColor="@color/pink_operation"
                 android:singleLine="false"
                 android:textSize="33sp"
-                android:background="@color/light_pink1"
+                android:background="@color/light_peach"
                 android:clickable="true"
                 android:layout_weight="1"
                 />
