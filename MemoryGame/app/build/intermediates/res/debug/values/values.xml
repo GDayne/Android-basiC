@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Users/Saul/Documents/dev/android/Clon%20android/MemoryGame/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string-array name="type">
+        <item>Start!</item>
+        <item>4 X 4</item>
+        <item>4 X 5</item>
+        <item>4 X 6</item>
+        <item>5 X 6</item>
+        <item>6 X 6</item>
+    </string-array>
+    <string name="app_name">Memory Game</string>
+</resources>
