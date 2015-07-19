@@ -20,6 +20,7 @@
             android:id="@+id/txt_result"
             android:layout_gravity="center_horizontal"
             android:textSize="40sp"
+            android:background="@color/light_peach"
             android:gravity="center_vertical|right"
             android:padding="20dp"
             android:textColor="@color/text_results_color"
@@ -30,6 +31,7 @@
             android:layout_height="0dp"
             android:id="@+id/txt_operation"
             android:layout_weight="1"
+            android:background="@color/light_pinkk"
             android:gravity="center_vertical|center_horizontal"
             android:textColor="@color/text_results_color"
             android:textSize="20sp" />
@@ -48,7 +50,7 @@
             android:layout_height="fill_parent"
             android:layout_weight="3"
             android:weightSum="4"
-            android:background="@color/background_numbers">
+            android:background="#ffffbdd5">
 
             <LinearLayout
                 android:orientation="horizontal"
@@ -64,7 +66,7 @@
                     android:layout_weight="1"
                     android:textSize="24sp"
                     android:background="@null"
-                    android:textColor="@color/text_numbers_colors" />
+                    android:textColor="@color/number_pink" />
 
                 <Button
                     android:layout_width="0dp"
@@ -74,7 +76,7 @@
                     android:layout_weight="1"
                     android:textSize="24sp"
                     android:background="@null"
-                    android:textColor="@color/text_numbers_colors" />
+                    android:textColor="@color/number_pink" />
 
                 <Button
                     android:layout_width="0dp"
@@ -84,7 +86,7 @@
                     android:layout_weight="1"
                     android:textSize="24sp"
                     android:background="@null"
-                    android:textColor="@color/text_numbers_colors" />
+                    android:textColor="@color/number_pink" />
             </LinearLayout>
 
             <LinearLayout
@@ -101,7 +103,7 @@
                     android:layout_weight="1"
                     android:textSize="24sp"
                     android:background="@null"
-                    android:textColor="@color/text_numbers_colors" />
+                    android:textColor="@color/number_pink" />
 
                 <Button
                     android:layout_width="0dp"
@@ -111,7 +113,7 @@
                     android:layout_weight="1"
                     android:textSize="24sp"
                     android:background="@null"
-                    android:textColor="@color/text_numbers_colors" />
+                    android:textColor="@color/number_pink" />
 
                 <Button
                     android:layout_width="0dp"
@@ -121,7 +123,7 @@
                     android:layout_weight="1"
                     android:textSize="24sp"
                     android:background="@null"
-                    android:textColor="@color/text_numbers_colors" />
+                    android:textColor="@color/number_pink" />
             </LinearLayout>
 
             <LinearLayout
@@ -138,7 +140,7 @@
                     android:layout_weight="1"
                     android:textSize="24sp"
                     android:background="@null"
-                    android:textColor="@color/text_numbers_colors" />
+                    android:textColor="@color/number_pink" />
 
                 <Button
                     android:layout_width="0dp"
@@ -148,7 +150,7 @@
                     android:layout_weight="1"
                     android:textSize="24sp"
                     android:background="@null"
-                    android:textColor="@color/text_numbers_colors" />
+                    android:textColor="@color/number_pink" />
 
                 <Button
                     android:layout_width="0dp"
@@ -158,7 +160,7 @@
                     android:layout_weight="1"
                     android:textSize="24sp"
                     android:background="@null"
-                    android:textColor="@color/text_numbers_colors" />
+                    android:textColor="@color/number_pink" />
             </LinearLayout>
 
             <LinearLayout
@@ -190,7 +192,7 @@
                     android:layout_weight="1"
                     android:textSize="24sp"
                     android:background="@null"
-                    android:textColor="@color/text_numbers_colors" />
+                    android:textColor="@color/number_pink" />
 
                 <ImageButton
                     android:layout_width="0dp"
@@ -215,8 +217,9 @@
             android:layout_width="0dp"
             android:layout_height="fill_parent"
             android:layout_weight="1"
-            android:weightSum="4"
-            android:background="@color/background_operations">
+            android:weightSum="5"
+            android:background="#ffff79ad"
+            android:id="@+id/">
 
             <ImageButton
                 android:layout_width="35dp"
@@ -275,6 +278,21 @@
                 android:textColor="@color/text_operations_color"
                 android:text="+"
                 android:src="@drawable/plus_white"
+                android:scaleType="centerInside"
+                android:cropToPadding="false"
+                android:adjustViewBounds="false"
+                android:padding="5dp"
+                android:baselineAlignBottom="false"
+                android:layout_gravity="center" />
+            <ImageButton
+                android:layout_width="35dp"
+                android:layout_height="0dp"
+                android:id="@+id/btn_delete"
+                android:layout_weight="1"
+                android:background="@null"
+                android:textColor="@color/text_operations_color"
+                android:text="c"
+                android:src="@drawable/c_whitec"
                 android:scaleType="centerInside"
                 android:cropToPadding="false"
                 android:adjustViewBounds="false"

@@ -51,6 +51,14 @@
     <color name="highlighted_text_material_light">#66009688</color>
     <color name="hint_foreground_material_dark">@color/bright_foreground_disabled_material_dark</color>
     <color name="hint_foreground_material_light">@color/bright_foreground_disabled_material_light</color>
+    <!-- From: file:/C:/Users/Saul/Documents/dev/android/Dayne%20Android/Calculator/app/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="light_peach">#FFFFF0E5</color>
+    <color name="light_pink1">#ffffbbd8</color>
+    <color name="light_pinkk">#FFFFDFE8</color>
+    <color name="ligth_pink">FFFFDBE4</color>
+    <!-- From: file:/C:/Users/Saul/Documents/dev/android/Dayne%20Android/Calculator/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.0/res/values/values.xml -->
+    <eat-comment/>
     <color name="link_text_material_dark">@color/material_deep_teal_200</color>
     <color name="link_text_material_light">@color/material_deep_teal_500</color>
     <color name="material_blue_grey_800">#ff37474f</color>
@@ -58,6 +66,12 @@
     <color name="material_blue_grey_950">#ff21272b</color>
     <color name="material_deep_teal_200">#ff80cbc4</color>
     <color name="material_deep_teal_500">#ff009688</color>
+    <!-- From: file:/C:/Users/Saul/Documents/dev/android/Dayne%20Android/Calculator/app/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="number_pink">#ffff047f</color>
+    <color name="pink_operation">#FFFF689D</color>
+    <!-- From: file:/C:/Users/Saul/Documents/dev/android/Dayne%20Android/Calculator/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.0/res/values/values.xml -->
+    <eat-comment/>
     <color name="primary_dark_material_dark">#ff000000</color>
     <color name="primary_dark_material_light">#ff757575</color>
     <color name="primary_material_dark">#ff212121</color>
